@@ -1,0 +1,41 @@
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .contact-heading {
+    font-size: 2rem;
+    color: #4CAF50;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-input,
+  .contact-textarea {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .contact-textarea {
+    min-height: 150px;
+  }
+  
+  .contact-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .contact-button:hover {
+    background-color: #45a049;
+  }
